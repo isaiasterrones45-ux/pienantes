@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Piensa antes de publicar — Campaña de ética digital</title>
+<meta name="description" content="Campaña de ética digital: respeta, protege tu privacidad y verifica antes de compartir. Haz el test, deja tu consejo y firma tu compromiso.">
+<meta name="theme-color" content="#F7F2E8">
+<meta property="og:title" content="Piensa antes de publicar">
+<meta property="og:description" content="Lo que publicas hoy puede quedarse en internet para siempre. Haz el test y descubre si tu filtro digital está activado.">
+<meta property="og:type" content="website">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%2312110F'/%3E%3Crect x='27' y='14' width='10' height='24' rx='5' fill='%23D9F45C'/%3E%3Ccircle cx='32' cy='48' r='5.5' fill='%23D9F45C'/%3E%3C/svg%3E">
+<script>document.documentElement.classList.add('js');</script>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<a class="skip" href="#contenido">Saltar al contenido</a>
+
+<header class="site-header" id="top">
+  <nav class="nav wrap" aria-label="Navegación principal">
+    <a class="brand" href="#top" aria-label="Piensa antes de publicar, ir al inicio">
+      <span class="brand-mark" aria-hidden="true">!</span>
+      <span class="brand-name">piensa<em>antes</em></span>
+    </a>
+
+    <button class="nav-toggle" id="navToggle" type="button" aria-expanded="false" aria-controls="navLinks">
+      <span class="nav-toggle-bars" aria-hidden="true"><i></i><i></i></span>
+      <span>Menú</span>
+    </button>
+
+    <div class="nav-links" id="navLinks">
+      <a href="#problema">El problema</a>
+      <a href="#reglas">Las 4 reglas</a>
+      <a href="#test">¿Lo publicarías?</a>
+      <a href="#muro">Muro</a>
+      <a class="nav-cta" href="#test">Hacer el test <span aria-hidden="true">↗</span></a>
+    </div>
+  </nav>
+</header>
+
+<main id="contenido">
+
+  <!-- ================= HERO ================= -->
+  <section class="hero">
+    <div class="wrap hero-grid">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="pulse-dot" aria-hidden="true"></span> Campaña de ética digital · 2026</p>
+        <h1>Piensa<br>antes de<br><span class="hl">publicar<svg class="hl-scribble" viewBox="0 0 300 26" aria-hidden="true" preserveAspectRatio="none"><path d="M3 18C62 7 129 4 297 12" fill="none" stroke="currentColor" stroke-width="8" stroke-linecap="round"/></svg></span></h1>
+        <p class="lead">Un like dura un segundo. Una captura puede durar para siempre. Aprende a cuidar tu privacidad, respetar a los demás y verificar lo que compartes.</p>
+        <div class="hero-actions">
+          <a class="btn btn-dark" href="#test">
+            <span>¿Lo publicarías?</span>
+            <i class="btn-dot" aria-hidden="true">→</i>
+          </a>
+          <a class="btn btn-ghost" href="#reglas">Conoce las 4 reglas</a>
+        </div>
+        <ul class="hero-tags" aria-label="Temas de la campaña">
+          <li><span aria-hidden="true"></span> Respeto</li>
+          <li><span aria-hidden="true"></span> Privacidad</li>
+          <li><span aria-hidden="true"></span> Verificación</li>
+          <li><span aria-hidden="true"></span> Ciberacoso</li>
+        </ul>
+      </div>
+
+      <div class="hero-art" aria-label="Ejemplo interactivo de una publicación">
+        <div class="hero-halo" aria-hidden="true"></div>
+
+        <div class="phone" id="heroPhone">
+          <div class="phone-bar" aria-hidden="true">
+            <span class="phone-time">9:41</span>
+            <span class="phone-island"></span>
+            <span class="phone-signal"><i></i><i></i><i></i></span>
+          </div>
+          <div class="phone-screen">
+            <div class="app-top">
+              <span class="app-logo">sígueme</span>
+              <span class="app-dots" aria-hidden="true">•••</span>
+            </div>
+            <article class="post" id="heroPost">
+              <div class="post-head">
+                <span class="avatar" aria-hidden="true">TÚ</span>
+                <span class="post-user"><strong>@tu_cuenta</strong><small>hace 2 minutos</small></span>
+                <span class="post-more" aria-hidden="true">•••</span>
+              </div>
+              <div class="post-img">
+                <span class="post-img-tag">foto de alguien más</span>
+                <span class="post-img-sub">sin permiso</span>
+                <span class="post-img-face" aria-hidden="true">:(</span>
+              </div>
+              <p class="post-text">“Mira lo que subí 😂”</p>
+              <p class="post-note" id="heroNote">Bien pensado. Pide permiso antes de publicar.</p>
+              <div class="post-actions">
+                <button type="button" class="post-btn post-btn--publish" id="heroPublish">Publicar</button>
+                <button type="button" class="post-btn post-btn--think" id="heroThink">Pensarlo</button>
+              </div>
+            </article>
+            <div class="app-bottom" aria-hidden="true"><span>♥</span><span>💬</span><span>↗</span></div>
+          </div>
+        </div>
+
+        <div class="float-card float-a">
+          <span class="float-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3 4 6v6c0 5 3.4 8.3 8 9 4.6-.7 8-4 8-9V6l-8-3Z"/><path d="M9 12l2 2 4-4"/></svg>
+          </span>
+          <span><b>¿Tienes permiso?</b><small>Pregunta primero</small></span>
+        </div>
+        <div class="float-card float-b">
+          <span class="float-icon float-icon--violet" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="4" y="10" width="16" height="11" rx="3"/><path d="M8 10V7a4 4 0 0 1 8 0v3"/></svg>
+          </span>
+          <span><b>Privacidad</b><small>Revisa quién lo ve</small></span>
+        </div>
+        <div class="float-card float-c">
+          <span class="float-icon float-icon--coral" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3a7 7 0 0 0-4 12.7V19h8v-3.3A7 7 0 0 0 12 3Z"/><path d="M9 22h6"/></svg>
+          </span>
+          <span><b>Antes de compartir</b><small>Verifica la fuente</small></span>
+        </div>
+        <span class="hero-sticker" aria-hidden="true">piensa<br>dos veces</span>
+      </div>
+    </div>
+    <div class="scroll-cue" aria-hidden="true"><span></span> desliza</div>
+  </section>
+
+  <!-- ================= MARQUEE ================= -->
+  <div class="marquee" aria-hidden="true">
+    <div class="marquee-track">
+      <span>Respeta</span><i>✳</i><span>Verifica</span><i>✳</i><span>Protege</span><i>✳</i><span>Piensa</span><i>✳</i><span>No al ciberacoso</span><i>✳</i>
+      <span>Respeta</span><i>✳</i><span>Verifica</span><i>✳</i><span>Protege</span><i>✳</i><span>Piensa</span><i>✳</i><span>No al ciberacoso</span><i>✳</i>
+    </div>
+  </div>
+
+  <!-- ================= PROBLEMA ================= -->
+  <section class="section problem" id="problema">
+    <div class="wrap">
+      <div class="section-head reveal" data-reveal>
+        <p class="kicker">01 / El problema</p>
+        <div>
+          <h2>Publicar es fácil.<br><span class="outline">Pensarlo también debería serlo.</span></h2>
+          <p class="section-sub">Las redes sociales son parte de tu día. Pero una publicación sin permiso, un comentario hiriente o una noticia falsa pueden dejar huella. No se trata de dejar de usarlas: se trata de usarlas con criterio.</p>
+        </div>
+      </div>
+
+      <div class="problem-grid">
+        <article class="p-card p-card--dark reveal" data-reveal>
+          <div class="p-top"><span class="p-num">01</span><span class="p-icon" aria-hidden="true">☹</span></div>
+          <h3>Ciberacoso</h3>
+          <p>Las burlas y amenazas digitales no son “solo un chiste”. Pueden afectar la salud emocional de quien las recibe.</p>
+          <p class="p-foot">No lo normalices. Repórtalo.</p>
+        </article>
+        <article class="p-card p-card--violet reveal" data-reveal>
+          <div class="p-top"><span class="p-num">02</span><span class="p-icon" aria-hidden="true">↻</span></div>
+          <h3>Desinformación</h3>
+          <p>Compartir sin verificar convierte una mentira en tendencia. Y tú te vuelves parte del problema.</p>
+          <p class="p-foot">Fuente primero.</p>
+        </article>
+        <article class="p-card p-card--lime reveal" data-reveal>
+          <div class="p-top"><span class="p-num">03</span><span class="p-icon" aria-hidden="true">⌖</span></div>
+          <h3>Privacidad</h3>
+          <p>Tu ubicación, tu rostro o tus datos pueden terminar en manos que no conoces. Revisa antes de subir.</p>
+          <p class="p-foot">Lo que expones no se desexpone.</p>
+        </article>
+        <aside class="p-quote reveal" data-reveal>
+          <span class="quote-mark" aria-hidden="true">“</span>
+          <p>Piensa antes de publicar, porque en internet también hay consecuencias.</p>
+          <span class="quote-src">— Mensaje de la campaña</span>
+        </aside>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= REGLAS ================= -->
+  <section class="section rules" id="reglas">
+    <div class="wrap">
+      <div class="section-head section-head--dark reveal" data-reveal>
+        <p class="kicker">02 / Tus reglas</p>
+        <div>
+          <h2>Cuatro reglas.<br><span class="lime-text">Cero arrepentimientos.</span></h2>
+          <p class="section-sub">No necesitas un manual de 200 páginas. Con estas cuatro decisiones tu forma de estar en internet cambia.</p>
+        </div>
+      </div>
+
+      <div class="rules-grid">
+        <article class="rule-card rule-card--lime reveal" data-reveal>
+          <span class="rule-num">01</span>
+          <h3>Respeta</h3>
+          <p>Antes de comentar, pregúntate si te gustaría recibir ese mensaje. El respeto también aplica detrás de una pantalla.</p>
+          <p class="rule-check"><span aria-hidden="true">✓</span> Trata como quieres ser tratado.</p>
+        </article>
+        <article class="rule-card rule-card--violet reveal" data-reveal>
+          <span class="rule-num">02</span>
+          <h3>Protege</h3>
+          <p>Pide permiso antes de publicar fotos de otras personas. Revisa qué datos muestras y quién puede verlo.</p>
+          <p class="rule-check"><span aria-hidden="true">✓</span> Tu privacidad no es un extra.</p>
+        </article>
+        <article class="rule-card rule-card--sky reveal" data-reveal>
+          <span class="rule-num">03</span>
+          <h3>Verifica</h3>
+          <p>No todo lo que se comparte es verdad. Busca la fuente, compara y duda antes de reenviar.</p>
+          <p class="rule-check"><span aria-hidden="true">✓</span> Compartir también es responsabilidad.</p>
+        </article>
+        <article class="rule-card rule-card--coral reveal" data-reveal>
+          <span class="rule-num">04</span>
+          <h3>Actúa</h3>
+          <p>Si ves ciberacoso, no te rías ni mires a otro lado. Apoya, reporta y avisa a un adulto de confianza.</p>
+          <p class="rule-check"><span aria-hidden="true">✓</span> Callar también deja marca.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= TEST ================= -->
+  <section class="section quiz-section" id="test">
+    <div class="wrap">
+      <div class="quiz-shell">
+        <div class="quiz-intro reveal" data-reveal>
+          <p class="kicker">03 / La dinámica</p>
+          <h2>¿Lo<br>publicarías<span class="dot-lime">?</span></h2>
+          <p class="section-sub">Cinco situaciones reales. Elige lo que harías y descubre si tu filtro digital está activado.</p>
+          <ul class="quiz-facts">
+            <li><b>5</b> situaciones</li>
+            <li><b>1</b> minuto</li>
+            <li><b>0</b> juicios</li>
+          </ul>
+          <p class="quiz-side-note">Al final puedes ver tu resultado y firmar tu compromiso.</p>
+        </div>
+
+        <div class="quiz-card" id="quizCard" aria-live="polite">
+          <!-- El test se genera con JavaScript -->
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= MURO ================= -->
+  <section class="section wall" id="muro">
+    <div class="wrap">
+      <div class="section-head reveal" data-reveal>
+        <p class="kicker">04 / Muro de consejos</p>
+        <div>
+          <h2>Una regla<br>que se quede.</h2>
+          <p class="section-sub">Escribe el consejo que le darías a alguien que está a punto de publicar sin pensar. Los buenos consejos se quedan en el muro.</p>
+        </div>
+      </div>
+
+      <div class="wall-layout">
+        <form class="tip-form reveal" id="tipForm" data-reveal>
+          <div class="tip-form-head">
+            <span class="tip-form-tag">TU CONSEJO</span>
+            <span class="tip-local" title="Este muro se guarda en tu navegador">◍ se guarda aquí</span>
+          </div>
+          <label class="sr-only" for="tipName">Tu nombre (opcional)</label>
+          <input class="field" id="tipName" name="name" type="text" maxlength="24" placeholder="Tu nombre (opcional)" autocomplete="name">
+          <label class="sr-only" for="tipText">Tu consejo</label>
+          <textarea class="field" id="tipText" name="tip" maxlength="140" rows="4" placeholder="Ej. Pide permiso antes de subir una foto donde salga alguien más." required></textarea>
+          <div class="tip-form-foot">
+            <span class="char-count" id="tipCount">0 / 140</span>
+            <button class="btn btn-dark btn-small" type="submit">Publicar consejo <span aria-hidden="true">↗</span></button>
+          </div>
+          <p class="form-note">Sin cuentas, sin datos personales. Todo se guarda solo en este dispositivo.</p>
+        </form>
+
+        <div class="wall-panel">
+          <div class="wall-toolbar reveal" data-reveal>
+            <p><span id="wallCount">6</span> consejos en el muro</p>
+            <button class="link-btn" id="resetWall" type="button">Restaurar muro</button>
+          </div>
+          <div class="wall-grid" id="wallGrid"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= COMPROMISO ================= -->
+  <section class="section commit" id="compromiso">
+    <div class="wrap commit-grid">
+      <div class="commit-copy reveal" data-reveal>
+        <p class="kicker">05 / Tu compromiso</p>
+        <h2>No es un like.<br>Es una promesa.</h2>
+        <p class="section-sub">Marca las tres casillas, firma con tu nombre y llévate tu tarjeta digital. La ética también se practica.</p>
+
+        <div class="commit-checks" id="commitChecks">
+          <label class="check">
+            <input type="checkbox" value="permiso">
+            <span class="check-box" aria-hidden="true"></span>
+            <span>Pido permiso antes de publicar fotos de otras personas.</span>
+          </label>
+          <label class="check">
+            <input type="checkbox" value="verifico">
+            <span class="check-box" aria-hidden="true"></span>
+            <span>Verifico la fuente antes de compartir una noticia.</span>
+          </label>
+          <label class="check">
+            <input type="checkbox" value="reporto">
+            <span class="check-box" aria-hidden="true"></span>
+            <span>Apoyo y reporto el ciberacoso en lugar de reírme.</span>
+          </label>
+        </div>
+
+        <form class="commit-form" id="commitForm">
+          <label class="sr-only" for="commitName">Tu nombre</label>
+          <input class="field field--dark" id="commitName" type="text" maxlength="32" placeholder="Escribe tu nombre" autocomplete="name" required>
+          <button class="btn btn-lime" type="submit" id="commitBtn">Firmar mi compromiso <span aria-hidden="true">✍</span></button>
+        </form>
+        <p class="commit-status" id="commitStatus" role="status"></p>
+      </div>
+
+      <div class="badge-wrap reveal" data-reveal>
+        <div class="badge" id="badgePreview">
+          <div class="badge-top">
+            <span class="badge-brand"><span class="brand-mark brand-mark--small">!</span> piensa antes</span>
+            <span class="badge-year">2026</span>
+          </div>
+          <div class="badge-shape" aria-hidden="true"></div>
+          <p class="badge-kicker">Compromiso digital</p>
+          <p class="badge-title">Yo pienso<br>antes de<br><em>publicar.</em></p>
+          <div class="badge-sign">
+            <span class="badge-line"></span>
+            <span class="badge-name" id="badgeName">Tu nombre</span>
+            <span class="badge-date" id="badgeDate">—</span>
+          </div>
+          <p class="badge-foot">Respeto · Privacidad · Verificación</p>
+        </div>
+        <div class="badge-actions">
+          <button class="btn btn-ghost btn-ghost--dark btn-small" id="downloadBadge" type="button">Descargar tarjeta <span aria-hidden="true">↓</span></button>
+          <span class="badge-hint">PNG · 1080 × 1350</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= RECURSOS ================= -->
+  <section class="section resources" id="recursos">
+    <div class="wrap">
+      <div class="section-head reveal" data-reveal>
+        <p class="kicker">06 / Para seguir</p>
+        <div>
+          <h2>Aprende, contrasta,<br><span class="outline">comparte.</span></h2>
+          <p class="section-sub">Si quieres profundizar, estas organizaciones tienen recursos gratuitos sobre ciudadanía digital, seguridad en internet y derechos de niñas, niños y adolescentes.</p>
+        </div>
+      </div>
+
+      <div class="resource-grid">
+        <a class="resource-card reveal" href="https://www.unesco.org/es/media-information-literacy" target="_blank" rel="noopener" data-reveal>
+          <span class="resource-org">UNESCO</span>
+          <h3>Alfabetización mediática e informacional</h3>
+          <p>Recursos para aprender a buscar, evaluar y usar la información de forma crítica.</p>
+          <span class="resource-link">Visitar sitio <span aria-hidden="true">↗</span></span>
+        </a>
+        <a class="resource-card reveal" href="https://www.unicef.org/es/end-violence/ciberacoso" target="_blank" rel="noopener" data-reveal>
+          <span class="resource-org">UNICEF</span>
+          <h3>Seguridad y bienestar en internet</h3>
+          <p>Guías sobre ciberacoso, privacidad y derechos de niños y adolescentes en línea.</p>
+          <span class="resource-link">Visitar sitio <span aria-hidden="true">↗</span></span>
+        </a>
+        <a class="resource-card reveal" href="https://www.un.org/sustainabledevelopment/es/" target="_blank" rel="noopener" data-reveal>
+          <span class="resource-org">ONU</span>
+          <h3>Ciudadanía responsable</h3>
+          <p>Los Objetivos de Desarrollo Sostenible y la educación para una ciudadanía global.</p>
+          <span class="resource-link">Visitar sitio <span aria-hidden="true">↗</span></span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="wrap footer-grid">
+    <div class="footer-brand">
+      <a class="brand" href="#top" aria-label="Volver al inicio">
+        <span class="brand-mark" aria-hidden="true">!</span>
+        <span class="brand-name">piensa<em>antes</em></span>
+      </a>
+      <p>Una campaña por un internet más humano.<br>Porque detrás de cada pantalla hay una persona.</p>
+    </div>
+
+    <div class="footer-credits">
+      <p class="footer-label">Proyecto</p>
+      <p><span>Integrantes</span> <b id="teamNames">—</b></p>
+      <p><span>Materia</span> <b id="subjectName">Ética</b></p>
+      <p><span>Profesor</span> <b id="teacherName">—</b></p>
+      <p><span>Año</span> <b data-year>2026</b></p>
+    </div>
+
+    <div class="footer-links">
+      <p class="footer-label">Explora</p>
+      <a href="#problema">El problema</a>
+      <a href="#test">¿Lo publicarías?</a>
+      <a href="#muro">Muro de consejos</a>
+      <a href="#compromiso">Compromiso</a>
+    </div>
+  </div>
+  <div class="wrap footer-bottom">
+    <p>Hecho con ética, criterio y cero filtros.</p>
+    <a href="#top" class="back-top">Volver arriba <span aria-hidden="true">↑</span></a>
+  </div>
+</footer>
+
+<div class="toast" id="toast" role="status" aria-live="polite">
+  <span class="toast-dot" aria-hidden="true"></span>
+  <span id="toastText"></span>
+</div>
+
+<script src="app.js" defer></script>
+</body>
+</html>
